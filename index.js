@@ -6,12 +6,10 @@ function takeANumber(katzDeli, newCustomer) {
       return `Welcome, ${newCustomer}. You are number ${katzDeli.length} in line.`;
 }
 
-function nowServing(x) {
+function nowServing(katzDeli) {
   if (x[0] === " ") {
     console.log("There is nobody waiting to be served!");
   } else {
-    var newPerson = x[0];
-    newPerson.splice(0, 1);
     return `Currently serving ${newPerson[0]}.`;
   }
 }
