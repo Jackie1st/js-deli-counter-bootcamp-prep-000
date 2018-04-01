@@ -10,7 +10,7 @@ function nowServing(katzDeli) {
   if (x[0] === " ") {
     console.log("There is nobody waiting to be served!");
   } else {
-    return `Currently serving ${newPerson[0]}.`;
+    return `Currently serving ${katzDeli.shift()}.`;
   }
 }
 
