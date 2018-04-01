@@ -3,8 +3,7 @@
   
 function takeANumber(katzDeli, newCustomer) {
     katzDeli.push(newCustomer);
-    count++;
-      return `Welcome, ${newCustomer}. You are number ${katzDeli} in line.`;
+      return `Welcome, ${newCustomer}. You are number ${katzDeli.length} in line.`;
 }
 
 function nowServing(x) {
