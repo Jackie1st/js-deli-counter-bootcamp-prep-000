@@ -7,7 +7,8 @@ function takeANumber(katzDeli, newCustomer) {
 }
 
 function nowServing(katzDeli) {
-  if (x[0] === " ") {
+  
+  if (katzDeli[0] === " ") {
     console.log("There is nobody waiting to be served!");
   } else {
     return `Currently serving ${katzDeli.shift()}.`;
