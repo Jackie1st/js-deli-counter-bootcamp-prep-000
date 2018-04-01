@@ -8,7 +8,7 @@ function takeANumber(katzDeli, newCustomer) {
 
 function nowServing(katzDeli) {
   let i = 0;
-  while (i)
+  while (i < katzDeli.length) {
   if (katzDeli[0] === " ") {
     console.log("There is nobody waiting to be served!");
   } else {
