@@ -18,10 +18,10 @@ function nowServing(katzDeli) {
   }
 }
 
-function currentLine(katzDeliLine) {
+function currentLine(katzDeli) {
   var line = [];
   let i = 0;
-  while (i ) {
+  while (i < katzDeli.length) {
     
   }
   if (line.length === 0) {
