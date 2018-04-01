@@ -19,8 +19,12 @@ function nowServing(katzDeli) {
 }
 
 function currentLine(katzDeliLine) {
-  var line = ["1. Bill", " 2. Jane", " 3. Ann"];
-  if (line === 0) {
+  var line = [];
+  let i = 0;
+  while (i ) {
+    
+  }
+  if (line.length === 0) {
     return ("The line is currently empty");
   } else {
     return `The line is currently: ${line}`;
