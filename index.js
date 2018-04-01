@@ -12,7 +12,7 @@ function nowServing(katzDeli) {
     i++;
   }
   if (katzDeli.length === 0) {
-    console.log("There is nobody waiting to be served!");
+    return ("There is nobody waiting to be served!");
   } else {
     return `Currently serving ${katzDeli.shift()}.`;
   }
@@ -20,8 +20,8 @@ function nowServing(katzDeli) {
 
 function currentLine(katzDeliLine) {
   var line = ["1. Bill", " 2. Jane", " 3. Ann"];
-  if (line[0] === "") {
-    console.log("The line is currently empty");
+  if (line === 0) {
+    return ("The line is currently empty");
   } else {
     return `The line is currently: ${line}`;
   }
